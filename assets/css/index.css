@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+section{
+    flex-grow: 50%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    flex-grow: 50%;
+
+}
+
+.section{
+    height:600px;
+}
