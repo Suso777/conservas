@@ -1,0 +1,158 @@
+:root{
+  --azul-atlantico: #082E64;
+  --turquesa-mediterraneo: #3DB8A5;
+  --ocre-pescador: #C89A50;
+  --blanco-espuma: #F4F7F9;
+  --alto-contraste: rgba(244,247,249,0.95);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+header.header-mariria {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(180deg, rgba(8,46,100,0.98), rgba(8,46,100,0.95));
+  border-bottom: 2px solid var(--turquesa-mediterraneo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 20px;
+  height: 80px;
+  color: var(--blanco-espuma);
+}
+
+.header-mariria .logoMenu {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  width: 30%;
+}
+.header-mariria .logoMenu a{
+  display:inline-flex;
+  align-items:center;
+  text-decoration:none;
+  color:var(--blanco-espuma);
+}
+.header-mariria .logoMenu img{
+  height:56px;
+  width:auto;
+  display:block;
+  object-fit:contain;
+}
+
+.header-mariria .navbar {
+  width: 60%;
+}
+.header-mariria .navbar ul {
+  list-style:none;
+  display:flex;
+  justify-content:flex-end;
+  gap:28px;
+  align-items:center;
+}
+.header-mariria .navbar li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size:1.05rem;
+  letter-spacing:1px;
+}
+.header-mariria .navbar a {
+  color: var(--blanco-espuma);
+  text-decoration:none;
+  padding:6px 10px;
+  position:relative;
+  transition: color .25s ease;
+}
+.header-mariria .navbar a:hover {
+  color: var(--turquesa-mediterraneo);
+}
+
+.header-mariria .navbar a::after {
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  height:2px;
+  width:0%;
+  background: var(--ocre-pescador);
+  transition: width 0.35s ease;
+}
+.header-mariria .navbar a:hover::after {
+  width:100%;
+}
+
+.header-mariria .navbar li.cesta a {
+  border: 2px solid var(--ocre-pescador);
+  padding: 6px 14px;
+  border-radius: 22px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-mariria .hamburgerWrap {
+  display:none;              
+  width: 48px;
+  height: 48px;
+  align-items:center;
+  justify-content:center;
+}
+.header-mariria .hamburgerBtn {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border-radius:8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding:0;
+}
+
+@media (max-width: 900px) {
+
+  .header-mariria {
+    padding: 10px 12px;
+    height: 72px;
+  }
+
+  .header-mariria .logoMenu {
+    width: 60%;
+  }
+
+  .header-mariria .navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 72px;
+    background: linear-gradient(180deg, rgba(8,46,100,0.98), rgba(8,46,100,0.98));
+    display: none;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .header-mariria .navbar.open {
+    display: block;
+  }
+
+  .header-mariria .navbar ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items:center;
+    padding: 0 12px;
+  }
+
+  .header-mariria .hamburgerWrap {
+    display:flex;
+  }
+
+  .header-mariria .navbar li.cesta a {
+    border-radius: 14px;
+  }
+}
+
+.hamburgerBtn svg { width: 40px; height: 40px; display:block; }
+.hamburgerBtn:focus { outline: 2px dashed var(--turquesa-mediterraneo); outline-offset:3px; }
