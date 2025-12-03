@@ -9,7 +9,10 @@
 
 body {
     margin: 0;
-    background-color: var(--azul-atlantico);
+    height: 100vh;
+    background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
+    background-repeat: no-repeat; 
+    background-size: cover;    
     color: var(--blanco-espuma);
     font-family: 'Montserrat', sans-serif;
 }
@@ -18,7 +21,7 @@ body {
     width: 100%;
     background-color: var(--azul-atlantico);
     display: flex;
-    justify-content: space-between;
+    justify-content: content-position ;
     align-items: center;
     padding: 10px 15px;
     border-bottom: 2px solid var(--turquesa-mediterraneo);
@@ -32,8 +35,20 @@ body {
 }
 
 .logoMenu img {
-    height: 55px;
+    height: 120px;
     max-width: 100%;
+}
+
+.cesta-item a {
+    border: 3px solid var(--ocre-pescador); 
+    border-radius: 12px;                     
+    padding: 5px 12px;                      
+    text-decoration: none;                    
+    color: inherit;                           
+    transition: border 0.3s ease; 
+}
+.cesta-item a:hover {
+    border-color: var(--ocre-pescador);
 }
 
 .hamburgerMenu {

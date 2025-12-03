@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <li><a href="../productos.html">Productos</a></li>
                     <li><a href="../contacto.html">Contacto</a></li>
                     <li><a href="../sobre-nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="../cesta.html">Cesta</a></li>
+                    <li class="cesta-item"><a href="../cesta.html">Cesta</a></li>
                 </ul>
             </nav>
         </header>
