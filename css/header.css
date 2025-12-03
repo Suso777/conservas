@@ -1,158 +1,129 @@
-:root{
-  --azul-atlantico: #082E64;
-  --turquesa-mediterraneo: #3DB8A5;
-  --ocre-pescador: #C89A50;
-  --blanco-espuma: #F4F7F9;
-  --alto-contraste: rgba(244,247,249,0.95);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+    --azul-atlantico: #082E64;
+    --turquesa-mediterraneo: #3DB8A5;
+    --ocre-pescador: #C89A50;
+    --blanco-espuma: #F4F7F9;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-header.header-mariria {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background: linear-gradient(180deg, rgba(8,46,100,0.98), rgba(8,46,100,0.95));
-  border-bottom: 2px solid var(--turquesa-mediterraneo);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 12px 20px;
-  height: 80px;
-  color: var(--blanco-espuma);
+body {
+    margin: 0;
+    background-color: var(--azul-atlantico);
+    color: var(--blanco-espuma);
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header-mariria .logoMenu {
-  display:flex;
-  align-items:center;
-  gap:12px;
-  width: 30%;
-}
-.header-mariria .logoMenu a{
-  display:inline-flex;
-  align-items:center;
-  text-decoration:none;
-  color:var(--blanco-espuma);
-}
-.header-mariria .logoMenu img{
-  height:56px;
-  width:auto;
-  display:block;
-  object-fit:contain;
-}
-
-.header-mariria .navbar {
-  width: 60%;
-}
-.header-mariria .navbar ul {
-  list-style:none;
-  display:flex;
-  justify-content:flex-end;
-  gap:28px;
-  align-items:center;
-}
-.header-mariria .navbar li {
-  font-family: 'Cormorant Garamond', serif;
-  font-size:1.05rem;
-  letter-spacing:1px;
-}
-.header-mariria .navbar a {
-  color: var(--blanco-espuma);
-  text-decoration:none;
-  padding:6px 10px;
-  position:relative;
-  transition: color .25s ease;
-}
-.header-mariria .navbar a:hover {
-  color: var(--turquesa-mediterraneo);
-}
-
-.header-mariria .navbar a::after {
-  content:"";
-  position:absolute;
-  left:0;
-  bottom:-6px;
-  height:2px;
-  width:0%;
-  background: var(--ocre-pescador);
-  transition: width 0.35s ease;
-}
-.header-mariria .navbar a:hover::after {
-  width:100%;
-}
-
-.header-mariria .navbar li.cesta a {
-  border: 2px solid var(--ocre-pescador);
-  padding: 6px 14px;
-  border-radius: 22px;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.header-mariria .hamburgerWrap {
-  display:none;              
-  width: 48px;
-  height: 48px;
-  align-items:center;
-  justify-content:center;
-}
-.header-mariria .hamburgerBtn {
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:44px;
-  height:44px;
-  border-radius:8px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding:0;
-}
-
-@media (max-width: 900px) {
-
-  .header-mariria {
-    padding: 10px 12px;
-    height: 72px;
-  }
-
-  .header-mariria .logoMenu {
-    width: 60%;
-  }
-
-  .header-mariria .navbar {
-    position: absolute;
+.header-mariria {
+    width: 100%;
+    background-color: var(--azul-atlantico);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 2px solid var(--turquesa-mediterraneo);
+    position: fixed;
+    top: 0;
     left: 0;
-    right: 0;
-    top: 72px;
-    background: linear-gradient(180deg, rgba(8,46,100,0.98), rgba(8,46,100,0.98));
-    display: none;
-    padding: 18px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.03);
-  }
+    z-index: 1000;
 
-  .header-mariria .navbar.open {
-    display: block;
-  }
-
-  .header-mariria .navbar ul {
-    flex-direction: column;
-    gap: 12px;
-    align-items:center;
-    padding: 0 12px;
-  }
-
-  .header-mariria .hamburgerWrap {
-    display:flex;
-  }
-
-  .header-mariria .navbar li.cesta a {
-    border-radius: 14px;
-  }
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
-.hamburgerBtn svg { width: 40px; height: 40px; display:block; }
-.hamburgerBtn:focus { outline: 2px dashed var(--turquesa-mediterraneo); outline-offset:3px; }
+.logoMenu img {
+    height: 55px;
+    max-width: 100%;
+}
+
+.hamburgerMenu {
+    display: block;
+}
+
+#hamburgerIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain; 
+}
+
+.hamburgerMenu.active span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+.hamburgerMenu.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburgerMenu.active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--azul-atlantico);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--blanco-espuma);
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--turquesa-mediterraneo);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 900px) {
+
+    .hamburgerMenu {
+        display: none;
+    }
+
+    .navbar {
+        display: block !important;
+        width: 75%;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+    }
+
+    .navbar a {
+        font-size: 1.1rem;
+        position: relative;
+    }
+
+    .navbar a::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--turquesa-mediterraneo);
+        transition: width 0.3s ease;
+    }
+
+    .navbar a:hover::after {
+        width: 100%;
+    }
+}
