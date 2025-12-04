@@ -6,37 +6,46 @@ body{
     font-style: normal;
     font-variation-settings: "wdth" 100;
     text-align: center;
-    padding: 50px;
+    padding: 5%;
     color: #082E64;
-    background-color: #F4F7F9;
+    background: linear-gradient(45deg, #c89a50, #F4F7F9);
+    
 }
 
 main{
     max-width: 2000px;
     margin-top:46px;
+    
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5%;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .card1 {
-    padding: 30px;
+    padding: 2%;
     border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
     background-color: #F4F7F9;
-    flex-basis: 80%;
+    flex-basis: 100%;
     
 }
 .card2 {
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #c89a50;
-    flex-basis: 80%;
+    padding: 2%;
+    /*border-radius: 10px;
+    background-color: #c89a50;*/
+    
+    flex-basis: 100%;
+}
+
+.mark{
+    font-weight: bold;
 }
 
 @media (min-width: 768px){
@@ -48,18 +57,18 @@ main{
     }
 
     .card1{
-        width: 700px;
+        width: 100%;
     }
 
     .card2{
-        width: 700px;
+        width: 100%x;
     }
 
     .img-fluid{
         max-inline-size: 100%;
         height: auto;
         max-width: 600px;
-        display: block;
+        
         
     }
 }
@@ -71,87 +80,3 @@ main{
 } 
 
 
-/*
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.bg-1{
-    background-color: #082E64;
-    color: #C89A50;
-}
-
-.bg-2{
-    background-color: #3DB8A5;
-    color: #082E64;
-}
-
-.bg-3{
-    background-color: #F4F7F9;
-    color: #C89A50;
-}
-
-.bg-4{
-    background-color: #C89A50;
-    color: #082E64;
-}
-XXXXXXXXXXX
-*/
-/*
-header{
-    border-style: solid;
-    margin-left: 20%;
-    background-color: rgb(224, 223, 223);
-}
-
-main{
-    
-    display: flex;
-    justify-content: space-around;
-}
-
-.upperlinks{
-    text-align: right;
-    padding-right: 1%;
-}
-a:link, a:visited {
-    background-color: black;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 1%;
-}
-
-a:hover, a:active {
-    background-color: grey;
-}
-.content{
-    margin-left: 20%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-h1{
-    text-align: center;
-    font-size: xx-large;
-}
-h4{
-    text-align: right;
-    padding-right: 1%;
-}
-img{
-    padding-top: 5%;
-    margin: 16%;
-}
-
-
-footer{
-    border-style: solid;
-    margin-left: 20%;
-    padding-left: 5%;
-    padding-bottom: 1%;
-}
-
-*/
