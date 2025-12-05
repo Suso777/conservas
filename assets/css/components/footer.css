@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+    --azul-atlantico: #082E64;
+    --turquesa-mediterraneo: #3DB8A5;
+    --ocre-pescador: #C89A50;
+    --blanco-espuma: #F4F7F9;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    color: var(--blanco-espuma);
+    font-family: 'Montserrat', sans-serif;
+}
