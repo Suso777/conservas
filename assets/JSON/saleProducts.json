@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "nombre": "Conserva de Atún",
+        "descripcion": "Atún en aceite de oliva.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/atun.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Sardinas en Lata",
+        "descripcion": "Sardinas en aceite de girasol.",
+        "precio": 2.80,
+        "imagen": "../assets/img/saleProducts/sardinas.jpeg"
+    },
+    {
+        "id": 3,
+        "nombre": "Conserva de mejillones",
+        "descripcion": "Los mejores mejillones de ria.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/mejillones.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Pulpo Atlantico",
+        "descripcion": "Pulpo Atlantico cocido.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/pulpoLata.png"
+    },
+        {
+        "id": 5,
+        "nombre": "Pulpo Atlantico",
+        "descripcion": "Pulpo Atlantico cocido en bote.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/Pulpo.png"
+    },
+           {
+        "id": 6,
+        "nombre": "Carne de Cagrejo Meditico",
+        "descripcion": "La mejor carne de cangrejo.",
+        "precio": 15.80,
+        "imagen": "../assets/img/saleProducts/cangrejo.jpeg"
+    }
+
+]
