@@ -21,11 +21,11 @@ body {
     width: 100%;
     background-color: var(--azul-atlantico);
     display: flex;
-    justify-content: content-position ;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
     border-bottom: 2px solid var(--turquesa-mediterraneo);
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 1000;
