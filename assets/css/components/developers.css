@@ -16,7 +16,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 
@@ -66,6 +66,17 @@ footer {
   margin-top: 20px;
 }
 
+.social-link {
+    color: white;
+    margin: 0 15px;
+    font-size: 2rem; /* Tamaño de iconos */
+    transition: 0.3s;
+}
+
+.social-link:hover {
+  border: 2px solid #C89A50; 
+    color: ; /* Cambio de color al pasar el mouse */
+}
 
 @media (max-width: 768px) {
   .main-container {
