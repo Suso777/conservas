@@ -62,7 +62,16 @@ function añadirCesta(id) {
     }
 
     localStorage.setItem("cesta", JSON.stringify(cesta));
-    alert("Producto añadido a la cesta");
+
+const cestaLink = document.querySelector(".cesta-item a");
+
+if (cestaLink) {
+    cestaLink.classList.add("cesta-animada");
+    setTimeout(() => {
+        cestaLink.classList.remove("cesta-animada");
+    }, 500); 
+}
+
 }
 
 cargarProductos();

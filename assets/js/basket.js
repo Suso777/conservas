@@ -83,4 +83,12 @@ function actualizarTotal() {
     precioTotal.textContent = `${total.toFixed(2)} €`;
 }
 
+document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) {
+        cesta = JSON.parse(localStorage.getItem("cesta")) || [];
+        mostrarCesta();
+    }
+});
+
+
 mostrarCesta();

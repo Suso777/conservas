@@ -40,6 +40,97 @@
         "descripcion": "La mejor carne de cangrejo.",
         "precio": 15.80,
         "imagen": "../assets/img/saleProducts/cangrejo.jpeg"
+    },
+        {
+        "id": 7,
+        "nombre": "Gambas",
+        "descripcion": "El sabor de las gambas mas feroces.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/gambas.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Mejillones natural",
+        "descripcion": "Todo el sabor de nuestros mejores mejillones.",
+        "precio": 2.80,
+        "imagen": "../assets/img/saleProducts/Mejillones natural.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Pulpo a la Gallega",
+        "descripcion": "El sabor del mejor Pulpo a la Gallega.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/pulpo gallega.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Sardinas gigantes",
+        "descripcion": "Lomos de sardinas gigantes.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/sardinas.png"
+    },
+        {
+        "id": 11,
+        "nombre": "Sardinillas en tomate",
+        "descripcion": "Sardinillas en tomate con todo el sabor del Atlantico.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/sardinillas tomate.png"
+    },
+           {
+        "id": 12,
+        "nombre": "Zamburiñas",
+        "descripcion": "Las mejores zamburiñas al natural.",
+        "precio": 11.80,
+        "imagen": "../assets/img/saleProducts/zamburiñas.png"
+    },
+           {
+        "id": 13,
+        "nombre": "Almejas a la gallega",
+        "descripcion": "Nuestras mejores almejas en salsa gallega.",
+        "precio": 15.80,
+        "imagen": "../assets/img/saleProducts/almejas gallega.png"
+    },
+        {
+        "id": 14,
+        "nombre": "Berberechos en escabeche",
+        "descripcion": "Berberechos en escabeche.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/Berberechos escabeche.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Caballa y melva",
+        "descripcion": "Lomos de Caballa y melva.",
+        "precio": 2.80,
+        "imagen": "../assets/img/saleProducts/Caballa y melva.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Calamares rellenos",
+        "descripcion": "Seleccion calamares rellenos.",
+        "precio": 3.50,
+        "imagen": "../assets/img/saleProducts/calamares rellenos.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Chicharro frito",
+        "descripcion": "Chicharro frito receta original.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/chicharro frito.png"
+    },
+        {
+        "id": 18,
+        "nombre": "Mejillones gallega",
+        "descripcion": "Mejillones en nuestra salsa gallega.",
+        "precio": 7.80,
+        "imagen": "../assets/img/saleProducts/Mejillones gallega.png"
+    },
+           {
+        "id": 19,
+        "nombre": "Navajas y navajuelas",
+        "descripcion": "Navajas y navajuelas al cava selección.",
+        "precio": 11.80,
+        "imagen": "../assets/img/saleProducts/navajas cava.png"
     }
 
 ]

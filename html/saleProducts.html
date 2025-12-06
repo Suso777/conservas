@@ -18,6 +18,20 @@
 
         <div id="productosContainer" class="row g-4"></div>
     </div>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+    <div id="toastProducto" class="toast text-white bg-success" role="alert">
+        <div class="toast-body">
+            Producto añadido a la cesta
+        </div>
+    </div>
+</div>
+
+<script>
+    const toastElement = document.getElementById("toastProducto");
+    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastElement);
+</script>
+
         <script src="../assets/js/header.js"></script>
         <script src="../assets/js/app.js"></script>
 </body>
