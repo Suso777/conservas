@@ -59,27 +59,27 @@ a:hover {
 }
 
 footer {
-  background-color: #082E64; 
-  color: #F4F7F9; 
-  text-align: center;
-  padding: 60px;
-  margin-top: 20px;
+    background-color: #082E64; 
+    color: #F4F7F9; 
+    text-align: center;
+    padding: 60px;
+    margin-top: 20px;
 }
 
 .social-link {
-    color: white;
+    color: #3DB8A5; 
     margin: 0 15px;
     font-size: 2rem; /* Tamaño de iconos */
     transition: 0.3s;
 }
 
 .social-link:hover {
-  border: 2px solid #C89A50; 
+    border: 2px solid #C89A50; 
     color: ; /* Cambio de color al pasar el mouse */
 }
 
 @media (max-width: 768px) {
-  .main-container {
+    .main-container {
     grid-template-columns: 1fr;
   }
 }
