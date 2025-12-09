@@ -69,16 +69,7 @@ main{
         justify-content: center;
     
     }
-    /*
-    .card1{
-        width: 100%;
-    }
-
-    .card2{
-        width: 100%;
-    }*/
-
-    .img-fluid{
+        .img-fluid{
         max-inline-size: 100%;
         height: auto;
         max-width: 600px;
