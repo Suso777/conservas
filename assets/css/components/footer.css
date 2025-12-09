@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    border-bottom: 2px solid var(--turquesa-mediterraneo);
+    border-top: 2px solid var(--turquesa-mediterraneo);
     position: relative;
     top: 0;
     left: 0;
@@ -34,6 +34,33 @@ body {
     box-sizing: border-box;
 }
 
+footer {
+    background-color: #082E64; 
+    color: #F4F7F9; 
+    text-align: center;
+    padding: 60px;
+    margin-top: 5px;
+}
+
+.social-link {
+    color: #3DB8A5; 
+    margin: 0 15px;
+    font-size: 2rem; /* Tamaño de iconos */
+    transition: 0.3s;
+}
+
+.social-link:hover {
+    border: 2px solid #C89A50; 
+    color: #3DB8A5; /* Cambio de color al pasar el mouse */
+    border-radius: 50%;
+    padding: 10px;  
+}
+
+
+
+
 @media (min-width: 900px) {
 
+}.main-container {
+    grid-template-columns: 1fr;
 }
