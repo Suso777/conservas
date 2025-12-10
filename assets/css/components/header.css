@@ -6,7 +6,7 @@
     --ocre-pescador: #C89A50;
     --blanco-espuma: #F4F7F9;
 }
-
+/*
 body {
     margin: 0;
     height: 3%;
@@ -16,7 +16,7 @@ body {
     color: var(--blanco-espuma);
     font-family: 'Montserrat', sans-serif;
 }
-
+*/
 .header-mariria {
     width: 100%;
     background-color: var(--azul-atlantico);
@@ -56,9 +56,9 @@ body {
 }
 
 #hamburgerIcon {
-  width: 40px;
-  height: 40px;
-  object-fit: contain; 
+    width: 40px;
+    height: 40px;
+    object-fit: contain; 
 }
 
 .hamburgerMenu.active span:nth-child(1) {
