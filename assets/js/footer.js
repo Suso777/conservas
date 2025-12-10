@@ -19,6 +19,13 @@ class MyFooter extends HTMLElement {
         <a href="https://discord.com" target="_blank" rel="noopener" class="social-link">
             <i class="fa-brands fa-discord"></i>
         </a>
+        <p></p>
+        <div class="DD">
+            copyright 2025 Dream Developers
+        </div>
+
+
+
         </footer>
     `;
 
