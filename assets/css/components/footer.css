@@ -37,19 +37,38 @@ footer {
 .social-link {
     color: #3DB8A5; 
     margin: 0 15px;
-    font-size: 2rem; /* Tamaño de iconos */
+    font-size: 2rem; 
     transition: 0.3s;
 }
 
 .social-link:hover {
     border: 2px solid #C89A50; 
-    color: #3DB8A5; /* Cambio de color al pasar el mouse */
+    color: #3DB8A5;
     border-radius: 50%;
     padding: 10px;  
 }
 
+.dreamDev{
+    margin-top:1px;
+    padding-top: 1px;
+}
 
+.grid{
+    display: grid;
+    grid-template-rows: auto;
+}
 
+.one{
+    grid-row: 1;
+}
+
+.two{
+    grid-row:2;
+}
+
+.three{
+    grid-row: 3;
+}
 
 @media (min-width: 900px) {
 
