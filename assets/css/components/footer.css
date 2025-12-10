@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap');
 
 :root {
-    --azul-atlantico: #082E64;
+    --azul-atlantico: #0c2d4e;
     --turquesa-mediterraneo: #3DB8A5;
     --ocre-pescador: #C89A50;
     --blanco-espuma: #F4F7F9;
@@ -27,7 +27,7 @@
 }
 
 footer {
-    background-color: #082E64; 
+    background-color: var(--azul-atlantico); 
     color: #F4F7F9; 
     text-align: center;
     padding: 60px;

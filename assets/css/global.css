@@ -14,7 +14,7 @@ body{
     /*padding: 1%;
     color: #082E64;
     background: linear-gradient(45deg, #c89a50, #F4F7F9);*/
-    background: linear-gradient(75deg, #082E64,  #86a8e7);
+    background: linear-gradient(75deg, #0c2d4e,  #86a8e7);
     background-repeat: no-repeat; 
     background-size: cover;    
     
@@ -23,7 +23,7 @@ body{
 main{
     max-width: 2000px;
     margin-top:1%;
-    
+    background: linear-gradient(75deg, #0c2d4e,  #86a8e7);
 }
 
 .container {
