@@ -1,7 +1,5 @@
 class myHeader extends HTMLElement {
   connectedCallback() {
-    this.cestaLink = this.querySelector(".cesta-item a");
-
     this.innerHTML = `
       <header class="header-mariria" id="headerMenu">
         <div class="logoMenu">
@@ -21,8 +19,9 @@ class myHeader extends HTMLElement {
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../html/saleProducts.html">Productos</a></li>
-                <li><a href="../contacto.html">Contacto</a></li>
-                <li><a href="../sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+                <li><a href="../html/aboutUs.html">Conoce Mar i Ría</a></li>
+                <li><a href="../html/developers.html">Nosotros</a></li>
                 <li class="cesta-item"><a href="../html/basket.html">Cesta</a></li>
             </ul>
         </nav>
