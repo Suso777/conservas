@@ -7,7 +7,7 @@
     --blanco-espuma: #F4F7F9;
 }
 
-body {
+/*body {
     margin: 0;
     height: 3%;
     background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
@@ -15,7 +15,7 @@ body {
     background-size: cover;    
     color: var(--blanco-espuma);
     font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 .header-mariria {
     width: 100%;
