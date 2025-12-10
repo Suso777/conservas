@@ -11,21 +11,15 @@ body{
     font-style: normal;
     font-variation-settings: "wdth" 100;
     text-align: center;
-    /*padding: 1%;
-    color: #082E64;
-    background: linear-gradient(45deg, #c89a50, #F4F7F9);*/
-    background: linear-gradient(75deg, #0c2d4e,  #86a8e7);
-    background-repeat: no-repeat; 
-    background-size: cover;    
+
+background: linear-gradient(75deg,rgba(12, 45, 78, 1) 0%, rgba(12, 45, 78, 1) 25%, rgba(134, 168, 231, 1) 100%);    background-size: cover;    
     
 }
 
 main{
     max-width: 2000px;
     margin-top:1%;
-    background: linear-gradient(75deg, #0c2d4e,  #86a8e7);
-}
-
+background: linear-gradient(75deg,rgba(12, 45, 78, 1) 0%, rgba(12, 45, 78, 1) 25%, rgba(134, 168, 231, 1) 100%);
 .container {
     display: flex;
     flex-direction: column;
@@ -39,8 +33,7 @@ main{
     padding: 1%;
     border-radius: 15px;
     margin: 1%;
-/*    border-style: solid;
-    border-width: 1px;*/
+
     background-color: #F4F7F9;
     flex-basis: 100%;
     width: 100%;
@@ -50,7 +43,7 @@ main{
     padding: 1%;
     border-radius: 15px;
     margin: 1%;
-    /*background-color: #c89a50;*/
+
     background: linear-gradient(75deg, #c89a50, #F4F7F9);
     flex-basis: 100%;
     width: 100%;
