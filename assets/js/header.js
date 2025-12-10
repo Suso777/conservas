@@ -1,10 +1,10 @@
 class myHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <header class="header-mariria" id="headerMenu">
+    <header class="header-mariria" id="headerMenu">
         <div class="logoMenu">
             <a href="../index.html">
-                <img src="../assets/img/logo.png" alt="Logo MAR I RÍA" class="logoImageSize">
+                <img src="../assets/img/shared/icons/logo.png" alt="Logo MAR I RÍA" class="logoImageSize">
             </a>
         </div>
 
