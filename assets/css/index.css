@@ -1,25 +1,26 @@
-main{
+.container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    background-color: transparent;
 }
 
-section{
-    flex-grow: 50%;
+.container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
-.image{
-    display: flex;
-    justify-content: center;
+@media (max-width: 600px) {
+    .container {
+        flex: 100%;
+    }
 }
-
-.text{
-    flex-grow: 50%;
-
-}
-
-.section{
-    height:600px;
+@media screen and (max-width: 800px) {
+    .container {
+    flex: 50%;
+    max-width: 50%;
+    }
 }
