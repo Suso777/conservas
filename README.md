@@ -114,12 +114,71 @@ El aviso de derechos de autor anterior y este aviso de permiso se incluirán en 
 
 EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN VIRTUD DE UNA ACCIÓN CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO TIPO, QUE SURJA DE, SE DERIVE DE O EN RELACIÓN CON EL SOFTWARE O EL USO U OTRAS RELACIONES CON EL SOFTWARE.
 
+## 📝 Historial de Desarrollo (Metodología Scrum)
+
+Este proyecto fue desarrollado bajo la metodología **Scrum**, con Dailys diarias de 15 minutos enfocadas en la inspección y adaptación. Los siguientes informes resumen el progreso, los impedimentos y las decisiones clave del equipo **DREAM DEVELOPERS** (Product Owner: Suso Suárez, Scrum Master: Melissa Gómez, Developers: Héctor Santos, Xavier Piñeiro).
+
+### Día 1: LUNES - Inicio y Configuración
+
+El enfoque inicial fue la **puesta en marcha de la infraestructura** y la organización del equipo.
+
+* **Hitos:** Asignación de roles, creación del repositorio central en GitHub, clonación local y establecimiento del tablero Kanban en Git Projects.
+
+
+### Día 2: MARTES - Definición del proyecto, y distribución de las primeras tareas  de desarrollo. 
+* **Decisión Clave:** Se definió el nombre del proyecto como **"Mar i Ría"** (conservas).
+* **Asignación:** Se distribuyeron las primeras tareas de desarrollo (Header, Footer, Contactos y Sobre Nosotros).
+
+### Día 3: MIERCOLES - autocorrección y rigor ténico del equipo.  
+Jornada marcada por la **detección y corrección de un error técnico** crucial en el control de versiones.
+
+* **Incidencia:** El Developer Héctor detectó que las ramas de trabajo se creaban erróneamente a partir de la rama `main` en lugar de `dev`.
+* **Resolución:** El equipo optó por **eliminar y recrear todas las ramas** para garantizar la correcta segregación del código.
+* **Riesgo Identificado:** Se reportó que, si bien el error se corrigió, persiste la **confusión** en el manejo avanzado de Git Branch.
+
+### Día 4: JUEVES - Avance Técnico y Ausencia del Product Owner
+
+Día enfocado en el avance de las tareas de desarrollo a pesar de la ausencia del Product Owner por motivos de conexión.
+
+* **Avance:** Se continuó con las tareas asignadas (`products`, `aboutUs`, `estilos generales`). La Scrum Master se incorporó activamente al desarrollo asumiendo la tarea de `aboutUs`.
+* **Riesgo Adicional:** Se identificó la necesidad de refuerzo en el manejo de **JSON** (visto en clase), uniéndose al Git Branch como prioridad de capacitación.
+
+### Día 5: VIERENES - Auto-Crítica y Prioridad de Refuerzo
+
+Jornada de introspección y planificación para resolver los bloqueos técnicos.
+
+* **Madurez del Equipo:** El Developer Xavier sugirió la necesidad de ser más **autocríticos** y priorizar la Daily Scrum.
+* **Impedimento Activo:** La reunión de apoyo con JM (para Git Branch y JSON) no se concretó, manteniendo la necesidad de **sesiones de refuerzo** como el impedimento principal para el futuro del proyecto.
+* **Avance:** El equipo comenzó a trabajar la estructura de carpetas aplicando principios de **Clean Code**.
+
+### Día 6: MARTES - Mitigación de Riesgos y Preparación de *Merge*
+
+El foco se movió a la finalización de las funcionalidades.
+
+* **Riesgo Mitigado:** El Developer Xavier reportó una pérdida momentánea de datos en una rama, pero fue **resuelta al instante** gracias a una copia de seguridad local.
+* **Hito Cercano:** Se planificó la **fusión (*merge*) de todas las ramas a la rama `dev` para el Día 7**, consolidando el primer conjunto de *features*.
+* **Auditoría:** La Scrum Master se reunió con JM para la **monitorización y auditoría** del proceso de las Dailys.
+
+### Día 7: MIERCOLES- Revisión Final antes del *Merge*
+
+El equipo se enfoca en la calidad antes de la integración mayor.
+
+* **Ajustes Finales:** Se realizaron modificaciones al HTML y el CSS (a cargo de Xavier) para asegurar la consistencia.
+* **Control de Calidad:** La Scrum Master presentó la **muestra final** de las funcionalidades.
+* **Plan:** La **fusión definitiva** de las *features* se pospuso para mañana (Día 8) para asegurar una calidad óptima en los últimos retoques.
+
+
+
+
 # 📝 Autoría
 Este proyecto ha sido desarrollado por:
 
 ## EQUIPO DREAM DEVELOPERS 👨‍👩‍👦‍👦
 
 👨HECTOR SANTOS.
+
 👩MELISSA GÓMEZ´.
+
 👨SUSO SUÁREZ.
+
 👨XAVIER PIÑEIRO.
