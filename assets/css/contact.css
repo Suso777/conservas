@@ -1,5 +1,5 @@
-body
-{    background-color: #082E64;   
+body {    
+    background-color: #082E64;   
     font-family: cormorand garamond, sans-serif;
 }
 
@@ -17,11 +17,11 @@ body
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 1.8rem;
-    color: #0a4d68;
+    color: #3DB8A5;
 }
 
 .btn-mariria {
-    background-color: #0a4d68;
+    background-color: #082E64;
     color: #C89a50;
 }
 
