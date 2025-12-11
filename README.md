@@ -1,10 +1,15 @@
 
-# 🐬 Mar i Ría
+# 🐬 Mar i Ría 
 
+
+<div align="center">
+  <img src="assets/img/index/logo.png" alt="logo" width="400" />
+</div>
 Mar i Ría es un proyecto de página web de comercio electrónico  **(e-commerce)** centrado en la venta y promoción de conservas artesanales de alta calidad. El objetivo es ofrecer una experiencia de usuario limpia, informativa y atractiva, destacando la tradición y calidad de los productos.
 
 # 💻🖥📱 DEMO EN VIVO 🛑
-PAGINA WEB FUNCIONAL (gitPage______________________)
+
+[MAR I RÍA](https://midominio.com)
 
 ## 💻 Tecnologías Utilizadas
 
@@ -167,13 +172,28 @@ El equipo se enfoca en la calidad antes de la integración mayor.
 * **Control de Calidad:** La Scrum Master presentó la **muestra final** de las funcionalidades.
 * **Plan:** La **fusión definitiva** de las *features* se pospuso para mañana (Día 8) para asegurar una calidad óptima en los últimos retoques.
 
+### Día 7:  *Merge*
+
+El equipo se enfoca en la calidad antes de la integración mayor.
+
+* **Ajustes Finales:** Se realizaron modificaciones al HTML y el CSS (a cargo de Xavier) para asegurar la consistencia.
+* **Control de Calidad:** La Scrum Master presentó la **muestra final** de las funcionalidades.
+* **Plan:** La **fusión definitiva** de las *features* se pospuso para mañana (Día 8) para asegurar una calidad óptima en los últimos retoques.
+
+
+
+
 
 
 
 # 📝 Autoría
 Este proyecto ha sido desarrollado por:
 
-## EQUIPO DREAM DEVELOPERS 👨‍👩‍👦‍👦
+## EQUIPO DREAM DEVELOPERS 
+
+<div align="center">
+  <img src="assets/img/index/developers.png" alt="logo" width="100" />
+</div>
 
 👨HECTOR SANTOS.
 
