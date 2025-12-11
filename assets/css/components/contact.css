@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-body
-{    background-color: #3DB8A5;
-    font-family: cormorand garamond, sans-serif;
-}
-=======
->>>>>>> initialPage
-
 .contact-container {
     max-width: 700px;
     margin: 50px auto;
@@ -20,19 +12,6 @@ body
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 1.8rem;
-<<<<<<< HEAD
-    color: #0a4d68;
-}
-
-.btn-mariria {
-    background-color: #0a4d68;
-    color: #C89a50;
-}
-
-.btn-mariria:hover {
-    border: 1px solid #C89A50 ;
-    background-color: ;
-=======
     color: #3DB8A5;
 }
 
@@ -44,8 +23,7 @@ body
 
 .btn-mariria:hover {
     border: 1px solid #C89A50 ;
-    background-color: white;
->>>>>>> initialPage
+    background-color: ;
 }
 input, textarea {
     border: 1px solid #ccc;

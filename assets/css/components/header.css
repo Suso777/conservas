@@ -1,22 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap');
 
 :root {
-<<<<<<< HEAD
     --azul-atlantico: #082E64;
-=======
-    --azul-atlantico: #0c2d4e;
->>>>>>> initialPage
     --turquesa-mediterraneo: #3DB8A5;
     --ocre-pescador: #C89A50;
     --blanco-espuma: #F4F7F9;
 }
-<<<<<<< HEAD
 
 /*body {
-=======
-/*
-body {
->>>>>>> initialPage
     margin: 0;
     height: 3%;
     background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
@@ -24,13 +15,8 @@ body {
     background-size: cover;    
     color: var(--blanco-espuma);
     font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
 }*/
 
-=======
-}
-*/
->>>>>>> initialPage
 .header-mariria {
     width: 100%;
     background-color: var(--azul-atlantico);
@@ -70,15 +56,9 @@ body {
 }
 
 #hamburgerIcon {
-<<<<<<< HEAD
   width: 40px;
   height: 40px;
   object-fit: contain; 
-=======
-    width: 40px;
-    height: 40px;
-    object-fit: contain; 
->>>>>>> initialPage
 }
 
 .hamburgerMenu.active span:nth-child(1) {
@@ -171,8 +151,4 @@ body {
     .navbar a:hover::after {
         width: 100%;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> initialPage
