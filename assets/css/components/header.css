@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+:root {
+    --azul-atlantico: #082E64;
+    --turquesa-mediterraneo: #3DB8A5;
+    --ocre-pescador: #C89A50;
+    --blanco-espuma: #F4F7F9;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
+    background-repeat: no-repeat; 
+    background-size: cover;    
+    color: var(--blanco-espuma);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-mariria {
+    width: 100%;
+    background-color: var(--azul-atlantico);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 2px solid var(--turquesa-mediterraneo);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.logoMenu img {
+    height: 120px;
+    max-width: 100%;
+}
+
+.cesta-item a {
+    border: 3px solid var(--ocre-pescador); 
+    border-radius: 12px;                     
+    padding: 5px 12px;                      
+    text-decoration: none;                    
+    color: inherit;                           
+    transition: border 0.3s ease; 
+}
+.cesta-item a:hover {
+    border-color: var(--ocre-pescador);
+}
+
+.hamburgerMenu {
+    display: block;
+}
+
+#hamburgerIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain; 
+}
+
+.hamburgerMenu.active span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+.hamburgerMenu.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburgerMenu.active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--azul-atlantico);
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--blanco-espuma);
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: var(--turquesa-mediterraneo);
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 900px) {
+
+    .hamburgerMenu {
+        display: none;
+    }
+
+    .navbar {
+        display: block !important;
+        width: 75%;
+    }
+
+    .navbar ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+    }
+
+    .navbar a {
+        font-size: 1.1rem;
+        position: relative;
+    }
+
+    .navbar a::after {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--turquesa-mediterraneo);
+        transition: width 0.3s ease;
+    }
+
+    .navbar a:hover::after {
+        width: 100%;
+    }
+}
