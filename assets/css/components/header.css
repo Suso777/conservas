@@ -7,15 +7,15 @@
     --blanco-espuma: #F4F7F9;
 }
 
-body {
+/*body {
     margin: 0;
-    height: 100vh;
+    height: 3%;
     background: linear-gradient(75deg, var(--azul-atlantico),  #86a8e7);
     background-repeat: no-repeat; 
     background-size: cover;    
     color: var(--blanco-espuma);
     font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 .header-mariria {
     width: 100%;
@@ -97,6 +97,16 @@ body {
 
 .navbar a:hover {
     color: var(--turquesa-mediterraneo);
+}
+
+.cesta-animada {
+    animation: pulseCesta 0.5s ease;
+}
+
+@keyframes pulseCesta {
+    0% { transform: scale(1); background-color: #C89A50; }
+    50% { transform: scale(1.3); background-color: #ff6b6b; }
+    100% { transform: scale(1); background-color: #C89A50; }
 }
 
 .hidden {
