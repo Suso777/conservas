@@ -17,11 +17,11 @@ class myHeader extends HTMLElement {
 
         <nav class="navbar hidden" id="menu">
             <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../html/aboutUs.html">Conoce Mar i Ría</a></li>
-                <li><a href="../html/developers.html">Nosotros</a></li>
-                <li><a href="../html/contact.html">Contacto</a></li>
-                <li><a href="../html/saleProducts.html">Productos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="html/aboutUs.html">Conoce Mar i Ría</a></li>
+                <li><a href="html/developers.html">Nosotros</a></li>
+                <li><a href="html/contact.html">Contacto</a></li>
+                <li><a href="html/saleProducts.html">Productos</a></li>
                 <li class="cesta-item"><a href="../html/basket.html">Cesta</a></li>
             </ul>
         </nav>
