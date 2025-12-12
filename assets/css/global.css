@@ -18,18 +18,19 @@ body {
 }
 
 main {
+    padding: 40px 0;
     max-width: 2000px;
     margin-top: 1%;
-    background: linear-gradient(75deg, rgba(12, 45, 78, 1) 0%, rgba(12, 45, 78, 1) 25%, rgba(134, 168, 231, 1) 100%);
+    background: transparent;
+}
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 5%;
-        justify-content: center;
-        align-items: center;
-
-    }
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
 
     .card1 {
         padding: 1%;

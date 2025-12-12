@@ -1,3 +1,37 @@
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+    .card1 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
+
+        background-color: #F4F7F9;
+        flex-basis: 100%;
+        width: 100%;
+
+    }
+
+    .card2 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
+
+        background: linear-gradient(75deg, #c89a50, #F4F7F9);
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .mark {
+        font-weight: bold;
+        background-color: transparent;
+        color: #082E64;
+    }
 .container {
     display: flex;
     flex-direction: row;

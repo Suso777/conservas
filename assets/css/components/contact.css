@@ -1,7 +1,7 @@
 .contact-container {
     max-width: 700px;
     margin: 50px auto;
-    background: #F4F7F9;
+    background: #f4f7f9;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -23,10 +23,10 @@
 
 .btn-mariria:hover {
     border: 1px solid #C89A50 ;
-    background-color: ;
+    background-color: #C89A50  ;
 }
 input, textarea {
-    border: 1px solid #ccc;
+    border: 1px solid #c1c418;
     border-radius: 8px;
     padding: 10px;
     width: 100%;
