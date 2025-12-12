@@ -192,7 +192,7 @@ Este proyecto ha sido desarrollado por:
 ## EQUIPO DREAM DEVELOPERS 
 
 <div align="center">
-  <img src="assets/img/index/developers.png" alt="logo" width="100" />
+  <img src="assets/img/developers/iconoApp.png" alt="logo" width="100" />
 </div>
 
 👨HECTOR SANTOS.
