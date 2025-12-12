@@ -27,6 +27,6 @@ const productos = [
         precio: 2.80,
         imagen: "img/saleProducts/pulpo.png"
     }
-    // Aquí añadirás los 20-30 productos restantes
+    
 ];
 
