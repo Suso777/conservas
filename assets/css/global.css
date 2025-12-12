@@ -1,25 +1,78 @@
-body{
-    background-color: #F4F7F9;
-    color: #082E64;
-    font-family: 'Cormorant', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-section{
-    margin-left: 10%;
-    margin-right: 10%;
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-align: center;
+
+    background: linear-gradient(75deg, rgba(12, 45, 78, 1) 0%, rgba(12, 45, 78, 1) 25%, rgba(134, 168, 231, 1) 100%);
+    background-size: cover;
+
 }
 
-@media (max-width: 768px) {
-    
-    .text {
+main {
+    padding: 40px 0;
+    max-width: 2000px;
+    margin-top: 1%;
+    background: transparent;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+    .card1 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
+
+        background-color: #F4F7F9;
+        flex-basis: 100%;
+        width: 100%;
+
+    }
+
+    .card2 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
+
+        background: linear-gradient(75deg, #c89a50, #F4F7F9);
+        flex-basis: 100%;
         width: 100%;
     }
-    .image {
-        width: 100%;
+
+    .mark {
+        font-weight: bold;
+        background-color: transparent;
+        color: #082E64;
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+
+        .img-fluid {
+            max-inline-size: 100%;
+            height: auto;
+            max-width: 600px;
+
+
+        }
     }
 }

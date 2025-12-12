@@ -1,0 +1,34 @@
+.contact-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #f4f7f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.brand-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #3DB8A5;
+}
+
+.btn-mariria {
+    background-color: #082E64;
+    color: #C89a50;
+}
+
+
+.btn-mariria:hover {
+    border: 1px solid #C89A50 ;
+    background-color: #C89A50  ;
+}
+input, textarea {
+    border: 1px solid #c1c418;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}

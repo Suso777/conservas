@@ -1,25 +1,60 @@
-main{
+main .container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    gap: 5%;
     justify-content: center;
-    
+    align-items: center;
 }
 
-section{
-    flex-grow: 50%;
-}
+    .card1 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
 
-.image{
+        background-color: #F4F7F9;
+        flex-basis: 100%;
+        width: 100%;
+
+    }
+
+    .card2 {
+        padding: 1%;
+        border-radius: 15px;
+        margin: 1%;
+
+        background: linear-gradient(75deg, #c89a50, #F4F7F9);
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .mark {
+        font-weight: bold;
+        background-color: transparent;
+        color: #082E64;
+    }
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: transparent;
 }
 
-.text{
-    flex-grow: 50%;
-
+.container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
 }
 
-.section{
-    height:600px;
+@media (max-width: 600px) {
+    .container {
+        flex: 100%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container {
+    flex: 50%;
+    max-width: 50%;
+    }
 }
