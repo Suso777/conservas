@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="assets/img/index/logo.png" alt="logo" width="400" />
+  <img src="assets/img/logo.png" alt="logo" width="400" />
 </div>
 Mar i Ría es un proyecto de página web de comercio electrónico  **(e-commerce)** centrado en la venta y promoción de conservas artesanales de alta calidad. El objetivo es ofrecer una experiencia de usuario limpia, informativa y atractiva, destacando la tradición y calidad de los productos.
 
