@@ -39,8 +39,8 @@ class myHeader extends HTMLElement {
       menu.classList.toggle("hidden");
 
       icon.src = abierto
-        ? "assets/img/NavigationImg/menuOpen.png"
-        : "assets/img/NavigationImg/menuClosed.png";
+        ? "../assets/img/NavigationImg/menuOpen.png"
+        : "../assets/img/NavigationImg/menuClosed.png";
     });
   }
 }
