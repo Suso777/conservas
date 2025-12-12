@@ -31,7 +31,7 @@ class MyFooter extends HTMLElement {
             <div class="three">
                 <div class="dreamDev">
                     Dream Developers copyright 2025 <a href="https://suso777.github.io/dreamDevelopers/" target="_blank">
-    <img src="assets/img/shared/icons/developers-icon-1.png"
+    <img src="../assets/img/shared/icons/developers-icon-1.png"
          width="15%"
          alt="logo Dream Developers"
          title="dreamdevelopers.com">

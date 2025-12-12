@@ -4,13 +4,13 @@ class myHeader extends HTMLElement {
       <header class="header-mariria" id="headerMenu">
         <div class="logoMenu">
             <a href="index.html">
-                <img src="assets/img/logo.png" alt="Logo MAR I RÍA" class="logoImageSize">
+                <img src="../assets/img/logo.png" alt="Logo MAR I RÍA" class="logoImageSize">
             </a>
         </div>
 
         <div class="hamburgerMenu" id="hamburgerBtn">
             <img id="hamburgerIcon" 
-                 src="assets/img/NavigationImg/menuClosed.png" 
+                 src="../assets/img/NavigationImg/menuClosed.png" 
                  alt="Abrir menú" 
                  class="hamburgerImage">
         </div>
