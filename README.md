@@ -9,7 +9,7 @@ Mar i Ría es un proyecto de página web de comercio electrónico  **(e-commerce
 
 # 💻🖥📱 DEMO EN VIVO 🛑
 
-[MAR I RÍA](https://github.com/Suso777/conservas)
+[MAR I RÍA](https://suso777.github.io/conservas/)
 
 ## 💻 Tecnologías Utilizadas
 
