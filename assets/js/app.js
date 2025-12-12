@@ -4,7 +4,7 @@ let productos = [];
 
 async function cargarProductos() {
     try {
-        const respuesta = await fetch("assets/JSON/saleProducts.json");
+        const respuesta = await fetch("../assets/JSON/saleProducts.json");
 
         if (!respuesta.ok) {
             throw new Error("No se pudo cargar productos.json");
